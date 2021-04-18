@@ -1,0 +1,28 @@
+{
+  "name": "uglyduckling",
+  "version": "1.0.0",
+  "description": "a website for my (syoung) art",
+  "engines": {
+    "node": "12.x",
+    "npm": "7.x"
+  },
+  "main": "homepage.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node homepage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samichsheperd/uglyduckling.git"
+  },
+  "author": "syoung",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/samichsheperd/uglyduckling/issues"
+  },
+  "homepage": "https://github.com/samichsheperd/uglyduckling#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}
